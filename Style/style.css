@@ -24,6 +24,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .nav-item {
@@ -113,12 +114,12 @@ nav {
   align-items: center;
   height: 100vh;
   color: #fff;
+  text-align: center;
   flex-direction: column;
 }
 
 .nav-header h1 {
   font-size: 4rem;
-  margin: 10px;
 }
 
 .nav-header h2 {
@@ -126,8 +127,29 @@ nav {
   text-align: center;
 }
 
-.nav-header button {
-  display: flex;
+.flex-button button {
+  background: #44b1ff;
+  font-size: 1.3rem;
+  border: 2px solid #44b1ff;
+  border-radius: 7px;
+}
+
+.flex-button a {
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  display: block;
+  padding: 10px 35px;
+  transition: all 0.2s linear;
+}
+
+.flex-button button:hover, .flex-button a:hover {
+  color: #44b1ff;
+  border-radius: 7px;
+  background: none;
 }
 
 main {
