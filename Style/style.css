@@ -78,6 +78,35 @@ header {
   border-radius: 7px;
 }
 
+.button-cadastro {
+  margin: 0 15px;
+}
+
+.button-cadastro button {
+  background: #44b1ff;
+  font-size: 1.3rem;
+  border: 2px solid #44b1ff;
+  border-radius: 7px;
+}
+
+.button-cadastro a {
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  display: block;
+  padding: 10px 35px;
+  transition: all 0.15s linear;
+}
+
+.button-cadastro button:hover, .button-cadastro a:hover {
+  color: #44b1ff;
+  border-radius: 7px;
+  background: none;
+}
+
 nav {
   display: flex;
   justify-content: center;
