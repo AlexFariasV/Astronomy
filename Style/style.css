@@ -17,7 +17,7 @@ header {
 
 .logo {
   color: #fff;
-  margin: 10px;
+  margin-left: 20px;
 }
 
 .box-header {
@@ -25,6 +25,7 @@ header {
   justify-content: space-between;
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.3);
+  align-items: center;
 }
 
 .nav-item {
@@ -152,6 +153,5 @@ nav {
   background: none;
 }
 
-main {
-  margin: 20px;
-}/*# sourceMappingURL=style.css.map */
+/* main
+ *  margin: 20px *//*# sourceMappingURL=style.css.map */
