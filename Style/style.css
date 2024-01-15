@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;1,300&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -7,7 +8,7 @@
 }
 
 header {
-  background-image: url("../img/lightscape-LtnPejWDSAY-unsplash.jpg");
+  background: linear-gradient(#0001, #000) ,  url("../img/phil-botha-a0TJ3hy-UD8-unsplash.jpg")  ;
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
@@ -74,7 +75,8 @@ header {
   transition: all 0.15s linear;
 }
 
-.button-login:hover, .button-login a:hover {
+.button-login:hover,
+.button-login a:hover {
   background: #44b1ff;
   color: #fff;
   border-radius: 7px;
@@ -103,7 +105,8 @@ header {
   transition: all 0.15s linear;
 }
 
-.button-cadastro button:hover, .button-cadastro a:hover {
+.button-cadastro button:hover,
+.button-cadastro a:hover {
   color: #44b1ff;
   border-radius: 7px;
   background: none;
@@ -147,11 +150,19 @@ nav {
   transition: all 0.2s linear;
 }
 
-.flex-button button:hover, .flex-button a:hover {
+.flex-button button:hover,
+.flex-button a:hover {
   color: #44b1ff;
   border-radius: 7px;
   background: none;
 }
 
 /* main
- *  margin: 20px *//*# sourceMappingURL=style.css.map */
+ *  margin: 20px */
+/*# sourceMappingURL=style.css.map */
+
+
+main{
+  background-color: #000;
+  min-height: 100vh;
+}
